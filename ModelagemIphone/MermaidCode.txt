@@ -1,0 +1,25 @@
+classDiagram
+
+Iphone --|> NavegadorDaInternet
+Iphone --|> AparelhoTelefónico
+Iphone --|> ReprodutorMusical
+Iphone : boolean ligado
+Iphone : sincronizarDados()
+Iphone : ligarAparelho()
+Iphone : desligarAparelho()
+Iphone : irParaHome()
+Iphone : novoPapelParede(String foto)
+Iphone : lerEmails()
+Iphone : enviarEmail(String conteúdo, String emailDestino)
+
+NavegadorDaInternet : exibirPagina(String url)
+NavegadorDaInternet : adicionarNovaAba()
+NavegadorDaInternet : atualizarPagina()
+
+AparelhoTelefónico: ligar(String numero)
+AparelhoTelefónico: atender()
+AparelhoTelefónico: iniciarCorreioVoz()
+
+ReprodutorMusical: tocar()
+ReprodutorMusical: pausar()
+ReprodutorMusical: selecionarMusica(String musica)
