@@ -1,4 +1,4 @@
-package operacoesBasicas.models;
+package operacoesBasicas.listaDeTarefas.models;
 
 public class Tarefa {
 	private String descricao;

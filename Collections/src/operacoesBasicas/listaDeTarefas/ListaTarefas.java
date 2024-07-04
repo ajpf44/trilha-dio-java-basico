@@ -1,8 +1,8 @@
-package operacoesBasicas;
+package operacoesBasicas.listaDeTarefas;
 
 import java.util.ArrayList;
 
-import operacoesBasicas.models.Tarefa;
+import operacoesBasicas.listaDeTarefas.models.Tarefa;
 
 public class ListaTarefas {
 	private ArrayList<Tarefa> tarefas;
