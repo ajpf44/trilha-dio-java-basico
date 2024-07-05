@@ -1,8 +1,8 @@
-package ordenacaoEmList.ordenacaoPessoas;
+package list.ordenacaoEmList.ordenacaoPessoas;
 
 import java.util.List;
 
-import ordenacaoEmList.ordenacaoPessoas.models.Pessoa;
+import list.ordenacaoEmList.ordenacaoPessoas.models.Pessoa;
 
 public class Main {
 	public static void main(String[] args) {
@@ -15,15 +15,16 @@ public class Main {
 		op.adicionarPessoa("Gandalf",  152, 1.94);
 		
 		//caso true ordem crescente, caso false ordem decrescente
-		List<Pessoa> listaPorAltura =  op.ordenarPorAltura(true);
+		List<Pessoa> listaPorAltura =  op.ordenarPorAltura();
 		for(Pessoa p: listaPorAltura) {
 			System.out.println("Nome: " + p.getNome());
 			System.out.println("Altura: " + p.getAltura());
 			System.out.println("Idade: " + p.getIdade());
 			System.out.println();
 		}
+		
 		System.out.println("===============");
-		List<Pessoa> listaIdade =  op.ordenarPorIdade(true);
+		List<Pessoa> listaIdade = op.ordenarPorIdade();
 		for(Pessoa p: listaIdade) {
 			System.out.println("Nome: " + p.getNome());
 			System.out.println("Altura: " + p.getAltura());

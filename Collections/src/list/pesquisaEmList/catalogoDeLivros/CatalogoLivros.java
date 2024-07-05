@@ -1,9 +1,9 @@
-package pesquisaEmList.catalogoDeLivros;
+package list.pesquisaEmList.catalogoDeLivros;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import pesquisaEmList.catalogoDeLivros.models.Livro;
+import list.pesquisaEmList.catalogoDeLivros.models.Livro;
 
 public class CatalogoLivros {
 	private ArrayList<Livro> livros;

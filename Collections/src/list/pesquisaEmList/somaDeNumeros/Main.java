@@ -1,4 +1,4 @@
-package pesquisaEmList.somaDeNumeros;
+package list.pesquisaEmList.somaDeNumeros;
 
 public class Main {
 	public static void main(String[] args) {

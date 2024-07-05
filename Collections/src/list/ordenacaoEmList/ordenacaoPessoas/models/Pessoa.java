@@ -1,6 +1,6 @@
-package ordenacaoEmList.ordenacaoPessoas.models;
+package list.ordenacaoEmList.ordenacaoPessoas.models;
 
-public class Pessoa {
+public class Pessoa implements Comparable<Pessoa>{
 	private String nome;
 	private int idade;
 	private double altura;
@@ -29,5 +29,8 @@ public class Pessoa {
 		this.altura = altura;
 	}
 	
-		
+	@Override
+	public int compareTo(Pessoa o) {
+		return Integer.compare(this.idade, o.getIdade());
+	}	
 }

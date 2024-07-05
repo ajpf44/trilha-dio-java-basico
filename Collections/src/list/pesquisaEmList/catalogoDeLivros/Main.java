@@ -1,8 +1,8 @@
-package pesquisaEmList.catalogoDeLivros;
+package list.pesquisaEmList.catalogoDeLivros;
 
 import java.util.List;
 
-import pesquisaEmList.catalogoDeLivros.models.Livro;
+import list.pesquisaEmList.catalogoDeLivros.models.Livro;
 
 public class Main {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package pesquisaEmList.somaDeNumeros;
+package list.pesquisaEmList.somaDeNumeros;
 
 import java.util.ArrayList;
 

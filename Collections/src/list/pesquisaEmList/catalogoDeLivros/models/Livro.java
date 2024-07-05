@@ -1,4 +1,4 @@
-package pesquisaEmList.catalogoDeLivros.models;
+package list.pesquisaEmList.catalogoDeLivros.models;
 
 public class Livro {
 	private String titulo;
