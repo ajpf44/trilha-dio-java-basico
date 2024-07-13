@@ -8,6 +8,10 @@ import edu.utils.Func;
  */
 public class App 
 {
+	/**
+	 * Classe principal do programa 
+	 * 
+	 * */
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
